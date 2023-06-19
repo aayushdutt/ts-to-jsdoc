@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^4",
+    "webpack-cli": "^4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "ts-to-jsdoc": "^1.2.1"
+  }
+}
